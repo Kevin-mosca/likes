@@ -1,0 +1,63 @@
+*{
+    margin: 0px 20px;
+}
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: flex-start;
+    height: 60px;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 220px;
+    width: 150px;
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+}
+.profile{
+    margin-bottom: 30px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    
+}
+.column{
+    display: flex;
+    height: 900px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 130px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: start;
+    
+}
+.righttop{
+    display: flex;
+    justify-content: flex-start;
+    height: 70px;
+    width: 100%;
+    align-items:  center;
+}
+.likeA, .likeB, .likeC{
+    background-color: rgb(244, 234, 44);
+    box-shadow: 4px 4px 4px black;
+    padding: 5px 10px;
+}
+.rightcolumn{
+    margin-right: 40px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+    text-align: start;
+}
